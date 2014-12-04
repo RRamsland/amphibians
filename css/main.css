@@ -84,3 +84,18 @@ a:hover {
     margin-bottom: 1em;
   }
 }
+.lt-ie9 .col-big {
+  background:red;
+  width:50%;
+}
+.lt-ie9 aside {
+  width:50%;
+}
+.no-cssgradients aside{
+  background: #ddd;
+}
+.images {
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
